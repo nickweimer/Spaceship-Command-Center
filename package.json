@@ -1,18 +1,18 @@
 {
-  "name": "bot-crossing",
+  "name": "Spaceship-Command-Center",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "A 3D colony sim where every coding-agent thread on your Mac is a little astronaut building something.",
   "license": "MIT",
-  "author": "Jarren Rocks",
-  "homepage": "https://botcrossing.com",
+  "author": "Nicholas Weimer",
+  "homepage": "https://github.com/nickweimer/Spaceship-Command-Center#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jarrenrocks/bot-crossing.git"
+    "url": "git+https://github.com/nickweimer/Spaceship-Command-Center.git"
   },
   "bugs": {
-    "url": "https://github.com/jarrenrocks/bot-crossing/issues"
+    "url": "https://github.com/nickweimer/Spaceship-Command-Center/issues"
   },
   "keywords": [
     "claude-code",

@@ -14,7 +14,7 @@ import {
 } from './scan.mjs'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
-const DATA_DIR = process.env.BOT_CROSSING_DATA || path.join(here, '..', 'data')
+const DATA_DIR = process.env.SPACESHIP_COMMAND_CENTER_DATA || path.join(here, '..', 'data')
 const STATE_FILE = path.join(DATA_DIR, 'colony.json')
 
 const STATE_VERSION = 1
@@ -169,7 +169,7 @@ function send(res, status, body) {
 const LOCAL_HOSTS = new Set(['localhost', '127.0.0.1', '::1'])
 
 // The machine's own LAN addresses count as local too, so the colony can be
-// served to the home network with BOT_CROSSING_HOST set. Harmless when bound
+// served to the home network with SPACESHIP_COMMAND_CENTER_HOST set. Harmless when bound
 // to loopback (those hosts can't reach the server anyway), and the Host +
 // Origin pairing still stops DNS rebinding and CSRF exactly as before.
 for (const addrs of Object.values(os.networkInterfaces())) {
@@ -244,7 +244,7 @@ export async function apiMiddleware(req, res, next) {
   if (!url.pathname.startsWith('/api/')) return next ? next() : send(res, 404, { error: 'Not found' })
 
   if (!isLocalRequest(req)) {
-    return send(res, 403, { error: 'Bot Crossing only answers its own page on this machine' })
+    return send(res, 403, { error: 'Spaceship Command Center only answers its own page on this machine' })
   }
 
   try {

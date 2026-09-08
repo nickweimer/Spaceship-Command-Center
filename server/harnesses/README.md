@@ -1,7 +1,7 @@
 # Harness adapters
 
 A **harness** is whatever runs the agent threads you want to see as astronauts — Claude Code,
-Codex CLI, OpenCode, and so on. Bot Crossing does not care which one you use: it asks every
+Codex CLI, OpenCode, and so on. Spaceship Command Center does not care which one you use: it asks every
 harness present on the machine for its threads and draws whatever comes back.
 
 Adding one is meant to be **one new file in this directory**, plus one line in `index.mjs`.

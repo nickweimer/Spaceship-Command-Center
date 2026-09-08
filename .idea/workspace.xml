@@ -5,62 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f01c12fd-4b6c-477e-adc8-4c78b6f3c576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.claude/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.claude/skills/agent-session-world/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.claude/skills/agent-session-world/references/asset-pipeline.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.claude/skills/agent-session-world/references/harness-adapters.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.claude/skills/agent-session-world/references/making-it-feel-alive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.claude/skills/agent-session-world/references/rendering-traps.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/CREDITS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/crew.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/forest.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/spacebase.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/harnesses/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/harnesses/claude-code.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/harnesses/index.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lib/fsutil.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scan.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/serve.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/astronauts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/crew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/faces.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/indicators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agents/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/camera.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/engine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/tiltshift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/colony.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/hud-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/hud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/buildings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/planet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/plots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/ship.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/sky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/world/surfaces.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/build-assets.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/build-crew.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/build-kit.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/server/api.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/harnesses/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/harnesses/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/harnesses/claude-code.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/server/harnesses/claude-code.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/scan.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/server/scan.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/serve.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/server/serve.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/hud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/hud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build-crew.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build-crew.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,12 +56,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nicholas/Desktop/claude/spaceship_command_center/bot-crossing",
+    "last_opened_file_path": "/Users/nicholas/Desktop/claude/spaceship_command_center",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,10 +75,25 @@
       <option name="presentableId" value="Default" />
       <updated>1788844089697</updated>
       <workItem from="1788844093275" duration="928000" />
+      <workItem from="1788847155371" duration="218000" />
+      <workItem from="1788847402292" duration="1501000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit of spaceship command center">
+      <option name="closed" value="true" />
+      <created>1788847267667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788847267667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit of spaceship command center" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit of spaceship command center" />
   </component>
 </project>

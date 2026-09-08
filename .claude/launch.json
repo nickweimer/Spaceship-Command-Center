@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "bot-crossing",
+      "name": "spaceship-command-center",
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "run",

@@ -383,7 +383,7 @@ async function setSessionArchived(sessionId, archived) {
   }
 
   record.isArchived = Boolean(archived)
-  const tmp = `${file}.botcrossing.tmp`
+  const tmp = `${file}.spaceshipcommandcenter.tmp`
   await fsp.writeFile(tmp, JSON.stringify(record, null, 2))
   await fsp.rename(tmp, file)
   metaCache.delete(record.cliSessionId)
